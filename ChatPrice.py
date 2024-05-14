@@ -8,6 +8,10 @@ GPT_PRICING = {
         'prompt': 0.0005,  # input cost per 1k tokens
         'completion': 0.0015  # output cost per 1k tokens
     },
+    'gpt-4-turbo': {
+        'prompt': 0.01,  # input cost per 1k tokens
+        'completion': 0.03  # output cost per 1k tokens
+    },
     'gpt-4': {
         'prompt': 0.03,  # input cost per 1k tokens
         'completion': 0.06  # output cost per 1k tokens
